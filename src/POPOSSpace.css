@@ -25,4 +25,10 @@
 .POPOSSpace div {
   font-size: 16px;
   color: #666;
+  padding-top: 5px;
+}
+
+.POPOSSpace .hours {
+  padding-top: 10px;
+  font-style: oblique;
 }

@@ -1,7 +1,6 @@
 import './POPOSSpace.css'
 
-function POPOSSpace(props) {
-  const { name, image, address } = props
+function POPOSSpace({name, image, address, hours}) {
   return (
     <div className="POPOSSpace">
       <h1>{name}</h1>
@@ -11,6 +10,7 @@ function POPOSSpace(props) {
         alt={name} 
       />      
       <div>{address}</div>
+      <div className="hours">{hours}</div>
     </div>
   )
 }

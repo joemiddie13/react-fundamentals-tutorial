@@ -1,0 +1,28 @@
+.POPOSSpace {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.POPOSSpace:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.POPOSSpace img {
+  border-radius: 4px;
+  width: 75%;
+  height: auto;
+}
+
+.POPOSSpace h1 {
+  font-size: 20px;
+  color: #333;
+}
+
+.POPOSSpace div {
+  font-size: 16px;
+  color: #666;
+}

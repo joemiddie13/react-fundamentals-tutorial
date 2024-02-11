@@ -5,3 +5,21 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 40px;
 }
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+	.POPOSList {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 18px;
+  }
+}

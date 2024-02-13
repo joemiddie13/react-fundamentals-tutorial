@@ -3,6 +3,7 @@ import { useParams } from 'react-router'
 // import data from '../../sfpopos-data.json'
 import data from '../../sfpopos-data'
 import './POPOSDetails.css'
+import POPOSFeatureList from '../Feature/POPOSFeatureList'
 
 function POPOSDetails(props) {
   const params = useParams()
@@ -18,7 +19,7 @@ function POPOSDetails(props) {
       <div>
         <p>{ desc }</p>
         <p>{ hours }</p>
-        <p>{ features }</p>
+        <POPOSFeatureList features={features}/>
         <p>Latitude: { geo.lat } / Longitude: { geo.lon }</p>
       </div>
     </div>
